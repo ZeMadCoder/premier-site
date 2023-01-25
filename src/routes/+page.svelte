@@ -1,5 +1,6 @@
 <script>
 	import logo from '$lib/images/logo.png'
+	import ZeMadCoder from '$lib/images/ZeMadCoder.jpg'
 </script>
 
 <div class="homepage">
@@ -8,6 +9,11 @@
 		Bienvenue au club informatique du lycée Voltaire
 	</h2>
 	<img alt="logo club informatique" width="250px" src={logo} />
+
+	Avec:
+	<ul>
+	<li><img alt="logo club informatique" width="250px" src={logo} /></li>
+	</ul>
 </div>
 
 
