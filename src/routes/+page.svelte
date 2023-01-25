@@ -12,7 +12,7 @@
 
 	Avec:
 	<ul>
-	<li><img alt="logo club informatique" width="250px" src={logo} /></li>
+	<li><img alt="ZeMadCoder" width="50px" src={ZeMadCoder} />ZeMadCoder</li>
 	</ul>
 </div>
 
