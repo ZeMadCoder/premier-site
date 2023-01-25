@@ -1,37 +1,18 @@
 <script>
-	import Counter from './Counter.svelte'
-	import welcome from '$lib/images/svelte-welcome.webp'
-	import welcome_fallback from '$lib/images/svelte-welcome.png'
 	import logo from '$lib/images/logo.png'
 </script>
 
-<svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
-</svelte:head>
-
-<section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
-
-		to your new<br />Voltaire Club Info app !
-	</h1>
-	<img alt="logo club informatique" width="300px" src={logo} />
-
+<div class="homepage">
+	<h1>Salut les geeks !</h1>
 	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
+		Bienvenue au club informatique du lycée Voltaire
 	</h2>
+	<img alt="logo club informatique" width="250px" src={logo} />
+</div>
 
-	<Counter />
-</section>
 
 <style>
-	section {
+	.homepage {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -43,19 +24,7 @@
 		width: 100%;
 	}
 
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
+	
 
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
+
 </style>
